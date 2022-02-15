@@ -1,0 +1,39 @@
+.main-img{
+    background-image: url(./images/watercolor.webp);
+    background-size:100% auto;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+}
+input:invalid {
+  border: 2px dashed red;
+}
+input:invalid:focus {
+  background-image: linear-gradient =radial-gradient();
+}
+
+
+
+.main-img form{
+    margin:auto;
+}
+
+.main-img form input{
+    display: block;
+    padding:10px;
+    margin:10px;
+    border-radius:100px;
+    border: none;
+    outline: none;
+    text-align: center;
+    min-width: 200px;
+}
+
+.main-img form input[type=button]{
+        margin:auto;
+        min-width: 100px;
+}
+h2{
+    color:#fff;
+    text-align: center;
+}
