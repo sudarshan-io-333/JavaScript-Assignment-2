@@ -1,0 +1,27 @@
+body{
+    overflow: hidden;
+    margin: 0%;
+}
+.main-img{
+     background-color: rgb(241,74,19);
+    background-size:100% auto;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+}
+
+.main-img form{
+    margin: auto;
+}
+h1{
+    text-align: center;
+    display: block;
+    padding:10px;
+    margin:10px;
+    min-width: 200px;
+}
+.bgimg{
+    top:40%; 
+    left: 50%;
+    margin: auto;
+} 
